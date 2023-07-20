@@ -1,0 +1,24 @@
+{
+  "name": "botapp2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "bin/hubot run"
+  },
+  "author": "",
+  "keywords": [
+    "hubot",
+    "direct",
+    "bot",
+    "daab"
+  ],
+  "description": "",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "forever": "^4.0.0",
+    "googleapis": "^95.0.0",
+    "http-server": "^14.1.1",
+    "lisb-hubot": ">=4.0.0 <5.0.0",
+    "lisb-hubot-redis-brain": "^1.0.0"
+  }
+}
